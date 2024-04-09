@@ -47,12 +47,14 @@ Command cat with no argument
 - I got this answer because even after trying the command "cat" it does not know what it is looking for so it just came out as blank.
 - It is not an error because the command "cat" does not know what it is looking to work on so thus it is normal to come out as blank so it is not a error.
 
-
+![Image](catdirectoryargument1.png)
 
 Command cat with directory argument
 - The absolute path to the working directory before the command was "/home/mdyas/Downloads/lecture1-main/lecture1-main".
 - I got this answer because it can not find the content available in the "lecture1" since it is not a file but a directory instead.
 - This is an error because when we run the command "cat" it is looking for a file where it can grab the content out of but rather than that it met a directory named "lecture1" for which it is giving out an error.
+
+![Image](catfileargument1.png)
 
 Command cat with file argument
 - The absolute path to the working directory before the command was "/home/mdyas/Downloads/lecture1-main/lecture1-main".
