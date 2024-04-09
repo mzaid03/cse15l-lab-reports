@@ -17,22 +17,27 @@ Command ls with no argument
 - The absolute path to the working directory before the command was "/home/mdyas/lecture1".
 - I got this answer because the code identified "messages" as a directory so it switched it to that from "/home/mdyas/lecture1".
 - It is not an error because it has a successful transition from one directory to another.
+  
 Command ls with path directory
 - The absolute path to the working directory before the command was "/home/mdyas/lecture1".
 - I got this answer because in terms of ls "lecture1" can not be considered as a directory hence it gave us that as the answer.
 - This is an error since it gave us "No such file or directory" as such directory does not exist.
+
 Command ls with file name
--
--
--
+- The absolute path to the working directory before the command was "/home/mdyas/lecture1".
+- I got this answer becasue "ls" is lookingf for the file within the directory and thus when it finds the file which is "Hello.java".
+- This is not an error because when the command is "ls" is run then the terminal is looking for the file withing the active directory which in this case is "Hello.java" so it gave me the expected answer.414
+
 Command cat with no argument
--
--
--
+- The absolute path to the working directory before the command was "/home/mdyas/lecture1".
+- I got this answer because even after trying the command "cat" it does not know what it is looking for so it just came out as blank.
+- It is not an error because the command "cat" does not know what it is looking to work on so thus it is normal to come out as blank so it is not a error.
+
 Command cat with directory argument
 -
 -
 -
+
 Command cat with file argument
 -
 -
