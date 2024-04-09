@@ -14,8 +14,26 @@ Command cd with file name
 - This is an error and the reason why is because we can not use cd in terms of files, more like we can use ls to open up files such as "Hello.java".
 
 Command ls with no argument
--
+- The absolute path to the working directory before the command was "/home/mdyas/lecture1".
+- I got this answer because the code identified "messages" as a directory so it switched it to that from "/home/mdyas/lecture1".
+- It is not an error because it has a successful transition from one directory to another.
 Command ls with path directory
--
+- The absolute path to the working directory before the command was "/home/mdyas/lecture1".
+- I got this answer because in terms of ls "lecture1" can not be considered as a directory hence it gave us that as the answer.
+- This is an error since it gave us "No such file or directory" as such directory does not exist.
 Command ls with file name
+-
+-
+-
+Command cat with no argument
+-
+-
+-
+Command cat with directory argument
+-
+-
+-
+Command cat with file argument
+-
+-
 -
