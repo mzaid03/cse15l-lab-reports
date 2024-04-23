@@ -9,15 +9,15 @@ Command `cd` no argument
 
 Command `cd` path directory
 - The absolute path to the working directory right before the command was `/home/mdyas`.
-- I got this answer because now I have successfully changed from the home directory and have entered a new directory named the "lecture1".
+- I got this answer because now I have successfully changed from the home directory and have entered a new directory named the `lecture1`.
 - This is not an error reather than a successful transition from one directory to another as it does not show that "no file exist".
 
 ![Image](cdfileargument.png)
 
 Command `cd` with file name
-- The absolute path to the working directory right before the command was "~/lecture1 (main)".
-- I got this answer because Hello.java can not be a directory because it is a file instead and could not be considered as a directory to enter from another one.
-- This is an error and the reason why is because we can not use cd in terms of files, more like we can use ls to open up files such as "Hello.java".
+- The absolute path to the working directory right before the command was `~/lecture1 (main)`.
+- I got this answer because `Hello.java` can not be a directory because it is a file instead and could not be considered as a directory to enter from another one.
+- This is an error and the reason why is because we can not use cd in terms of files, more like we can use ls to open up files such as `Hello.java`.
 
 ![Image](lsnoargument.png)
 
