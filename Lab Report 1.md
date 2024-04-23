@@ -10,7 +10,7 @@ Command `cd` no argument
 Command `cd` path directory
 - The absolute path to the working directory right before the command was `/home/mdyas`.
 - I got this answer because now I have successfully changed from the home directory and have entered a new directory named the `lecture1`.
-- This is not an error reather than a successful transition from one directory to another as it does not show that "no file exist".
+- This is not an error reather than a successful transition from one directory to another as it does not show that `no file exist`.
 
 ![Image](cdfileargument.png)
 
@@ -31,7 +31,7 @@ Command `ls` with no argument
 Command `ls` with path directory
 - The absolute path to the working directory before the command was `/home/mdyas/lecture1`.
 - I got this answer because in terms of ls `lecture1` can not be considered as a directory hence it gave us that as the answer.
-- This is an error since it gave us "No such file or directory" as such directory does not exist.
+- This is an error since it gave us `No such file or directory` as such directory does not exist.
 
 ![Image](lsfileargument.png)
 
