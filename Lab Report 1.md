@@ -1,7 +1,7 @@
 ![Image](cdnoargument.png)
 
 Command `cd` no argument
-- The absolute path to the working directory right before the command was `/home/mdyas"`/home/mdyas.
+- The absolute path to the working directory right before the command was `/home/mdyas`.
 - I got the output becasue `cd` is essentially used to change the directory but in this case since it had no argument then it is staying in the home directory.
 - This is not an error because of the fact that it gave me the output that I was expecting as it is about staying in the home directory as there was no argument at all.
 
